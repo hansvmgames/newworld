@@ -1,11 +1,13 @@
 # http://www.gnu.org/software/automake
 
+Makefile
 Makefile.in
 /ar-lib
 /mdate-sh
 /py-compile
 /test-driver
 /ylwrap
+.deps
 
 # http://www.gnu.org/software/autoconf
 
@@ -23,6 +25,9 @@ Makefile.in
 /install-sh
 /missing
 /stamp-h1
+/config.log
+/config.status
+/config.h
 
 # https://www.gnu.org/software/libtool/
 
@@ -31,3 +36,16 @@ Makefile.in
 # http://www.gnu.org/software/texinfo
 
 /texinfo.tex
+
+# C
+
+*.o
+*.a
+
+# Emacs
+
+*~
+
+# Vi
+
+*.swp
